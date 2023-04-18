@@ -1,0 +1,412 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-chatbot-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  padding: 10px;
+  color: #fff;
+  background-color: #0d2d44;
+  border: none;
+  position: fixed;
+  bottom: 25px;
+  z-index: 9999;
+  left: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.6s ease-in-out;
+}
+.app-chatbot-button:hover {
+  transform: scale(1.1);
+}
+.app-chatbot-container {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 80%;
+  bottom: 55px;
+  z-index: 9999;
+  box-shadow: 5px 5px 13px rgba(91, 81, 81, 0.4);
+  border-radius: 5px;
+}
+.app-chatbot-button-icon {
+  fill: #fff;
+}
+
+.chatbot-popup {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f47221;
+  border-radius: 5px;
+  color: #fff;
+  z-index: 1;
+}
+.input{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 2em;
+  width: 50%;
+  height: 2.5em;
+}
+.input1{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 2em;
+  width: 50%;
+  height: 1.5em;
+}
+.submit{
+  border: 1px solid black;
+  color: black;
+  margin-top: 2em;
+  height: 2em;
+  width: 6em;
+  border-radius: 10px;
+}
+
+.submit:hover{
+  color: white;
+  background-color: black;
+}
+
+
+
+
+/*  */
+
+#videos th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  text-align: left;
+  background-color: white;
+  color: black;
+  width: 50vw;
+  border: none;
+}
+
+.b1 {
+  color: white;
+  background-color: chocolate;
+  color: white;
+  border: none;
+  margin-top: 6em;
+  padding: 1em 8.9em 1em 5.1em;
+}
+.b1:hover{
+  background-color: white;
+  color: black;
+}
+
+.b2 {
+  color: white;
+  background-color: chocolate;
+  color: white;
+  border: none;
+  margin-top: 0.5em;
+  padding: 1em 10.4em 1em 5.2em;
+}
+.b2:hover{
+  background-color: white;
+  color: black;
+}
+
+.b3 {
+  color: white;
+  background-color: chocolate;
+  color: white;
+  border: none;
+  margin-top: 0.5em;
+  padding: 1em 9.07em 1em 5.2em;
+}
+.b3:hover{
+  background-color: white;
+  color: black;
+}
+
+.b4 {
+  color: white;
+  background-color: chocolate;
+  color: white;
+  border: none;
+  margin-top: 0.5em;
+  padding: 1em 12em 1em 5.2em;
+}
+.b4:hover{
+  background-color: white;
+  color: black;
+}
+
+.InputForm{
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  margin-left: 22em;
+  box-shadow: 5px 5px 10px black;
+}
+.input0{
+  margin-top: 2em;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px black;
+  width: 220px;
+  padding: 15px;
+  outline: none;
+  margin-bottom: 2em;
+}
+.input12{
+  font-size: 16px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px black;
+  width: 250px;
+  padding: 15px;
+  outline: none;
+  margin-bottom: 2em;
+}
+.input13{
+  font-size: 16px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px black;
+  width: 250px;
+  outline: none;
+}
+::-webkit-file-upload-button{
+  color: white;
+  background-color: chocolate;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 1px 0 1px 1px white;
+  outline: none;
+  cursor: pointer;
+}
+::-webkit-file-upload-button:hover{
+  background-color:  burlywood;
+}
+
+.submit1{
+  margin-top: 2em;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px black;
+  width: 100px;
+  padding: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.submit1:hover{
+  color: white;
+  background-color: chocolate;
+}
+
+.MainClass{
+  background-color: darkgray;
+  height: 100%;
+  width: 100%;
+  /* margin-left: 5em; */
+}
+
+.MainHeader{
+  background-color: white;
+  width: 90%;
+  height: 4em;
+  border: 10px solid darkgray;
+  border-radius: 20px;
+  margin-left: 6em;
+}
+.MainHeader P{
+  color: chocolate;
+  padding: 1.3em;
+  font-size: large;
+  font-weight: 700;
+}
+.videoList1{
+  background-color: white;
+  width: 90%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+.videoList1{
+  margin:1em 0 0 5em;
+}
+.vtable{
+  margin-right: 5em;
+}
+.videoList1 thead{
+  width: 20%;
+  height: 3em;
+  border: 1px solid white;
+
+}
+.videoList1 tbody{
+  width: 25%;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+.videoList1 table{
+  width: 90%;
+  background-color: chocolate;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 2em;
+  margin-left: 3em;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.thead {
+  justify-content: center;
+  color:black;
+  text-align: center;
+}
+.thead td{
+  justify-content: center;
+  color:black;
+  text-align: center;
+}
+.icon:hover{
+  color:chocolate;
+  cursor: pointer;
+}
+
+.alert-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+.message {
+  font-weight: bold;
+}
+
+.close-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  background-color: lightgray;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  /* padding between ham and space */
+  /* padding: 20px; */
+}
+
+.sidebar {
+  background: lightgrey;
+  color: black;
+  height: 100%;
+  width: 20%;
+  transition: all 0.5s;
+  position: sticky;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  padding-left: 10em;
+  margin-top: -6em;
+ 
+  border-radius: 4px;
+ position: absolute;
+}
+.link {
+  display: flex;
+  color: black;
+  padding: 10px 15px;
+  gap: 15px;
+  margin-bottom: 0.3em;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  background: lightgray;
+  color: chocolate;
+  transition: all 0.5s;
+  /* transition-delay: 1s; */
+}
+
+.active {
+  background: chocolate;
+  color: #000;
+}
+
+.icon,
+.link_text {
+  font-size: 20px;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  position: static;
+}
+
+.cdiv{
+background-color: rgb(138, 38, 38);
+width: 100%;
+height: 100vh;
+}
